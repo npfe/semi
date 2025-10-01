@@ -1,4 +1,4 @@
-#### Schematics
+### Schematics
 
 In xschem the models are stored on the schematic directly. With a symbol named `netlist_not_shown.sym` models can be defined in spice. 
 
@@ -21,3 +21,13 @@ What is important is to specify the model of the device in its attributes:
 and this model attribute must be specified in the schematic's netlist:
 
 ![netlist](figures/xschem-models.png)
+
+### Warnings - Caveats 
+
+This section is only for me to remember stuffs that I will inevitably forget within 1-2 months timeframe.
+
+#### Title blocks on schematics
+
+Any blocks is selected as soon as clicked on, therefore, an A4 title block will be selected when initiating a drag and drop of any symbols.
+
+Best to stick to `title.sym` to give a semblant of formalism. 
