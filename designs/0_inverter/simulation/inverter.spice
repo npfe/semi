@@ -1,0 +1,23 @@
+** sch_path: /home/nicolas/Projects/semi/00_inverter/inverter.sch
+**.subckt inverter
+V1 VDD GND 3
+Vin Vin GND 0
+M1 Vout Vin VDD VDD pmos w=5u l=0.18u m=1
+M2 Vout Vin GND GND nmos w=5u l=0.18u m=1
+**** begin user architecture code
+
+
+.dc Vin 0 3.0 0.01
+.save all
+
+
+
+.model nmos NMOS (VTO=0.7 KP=200u L=0.18u W=5u)
+.model pmos PMOS (VTO=-0.7 KP=100u L=0.18u W=5u)
+
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.GLOBAL GND
+.end
