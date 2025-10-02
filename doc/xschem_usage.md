@@ -28,6 +28,6 @@ This section is only for me to remember stuffs that I will inevitably forget wit
 
 #### Title blocks on schematics
 
-Any blocks is selected as soon as clicked on, therefore, an A4 title block will be selected when initiating a drag and drop of any symbols.
+Any blocks is selected as soon as clicked on, therefore, an A4 title block symbol will be selected when initiating a drag and drop of any symbols.
 
-Best to stick to `title.sym` to give a semblant of formalism. 
+Best to stick to `title.sym` to give a semblant of formalism or to explode a title block's frame into lines on the schematic level. 

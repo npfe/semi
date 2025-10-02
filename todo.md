@@ -1,4 +1,4 @@
-- [ ] Title block for the schematic
+- [X] Title block for the schematic
 - [ ] Symbol for the inverter.
 - [ ] Install gaw 
 - [ ] Try some RTL development 
